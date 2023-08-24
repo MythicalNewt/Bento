@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Shreyas',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -23,17 +23,17 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '7228cdfaec3f0170f4b1e826254660e2', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '12.972',
+	defaultLongitude: '77.580',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,72 +61,60 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
-		},
-		{
-			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
-		},
-		{
-			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
+			icon: 'reddit',
 			link: 'https://reddit.com',
 		},
 		{
-			id: '6',
-			name: 'Odysee',
+			id: '4',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
+//	secondButtonsContainer: [
+//		{
+//			id: '1',
+//			name: 'Music',
+//			icon: 'headphones',
+//			link: 'https://open.spotify.com',
+//		},
+//		{
+//			id: '2',
+//			name: 'twitter',
+//			icon: 'twitter',
+//			link: 'https://twitter.com/',
+//		},
+//		{
+//			id: '3',
+//			name: 'bot',
+//			icon: 'bot',
+//			link: 'https://discord.com/app',
+//		},
+//		{
+//			id: '4',
+//			name: 'Amazon',
+//			icon: 'shopping-bag',
+//			link: 'https://amazon.com/',
+//		},
+//		{
+//			id: '5',
+//			name: 'Hashnode',
+//			icon: 'pen-tool',
+//			link: 'https://hashnode.com/',
+//		},
+//		{
+//			id: '6',
+//			name: 'Figma',
+//			icon: 'figma',
+//			link: 'https://figma.com/',
+//		},
+//	],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
