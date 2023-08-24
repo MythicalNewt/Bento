@@ -75,6 +75,18 @@ const CONFIG = {
 			icon: 'youtube',
 			link: 'https://youtube.com/',
 		},
+        {
+            id: '5',
+            name: 'Arch wiki',
+            icon: 'scroll-text',
+            link: 'https://wiki.archlinux.org/',
+        },
+        {
+            id: '6',
+            name: 'Discord',
+            icon: 'message-square',
+            link: 'https://discord.com'
+        }
 	],
 
 //	secondButtonsContainer: [
