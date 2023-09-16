@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Reddit',
-			icon: 'layout-list',
-			link: 'https://reddit.com',
+			name: 'MonkeyType',
+			icon: 'keyboard',
+			link: 'https://monkeytype.com/',
 		},
 		{
 			id: '4',
